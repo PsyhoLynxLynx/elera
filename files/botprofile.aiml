@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- insert your AIML categories here -->
+    <category>
+        <pattern>Buna</pattern>
+        <template>Buna
+
+
+            <br/>Numele meu este  Silviu si am sa te ajut sa alegi o chitara electrica. 
+            <br/>Cu ce mana doriti sa cantati? Dreapta / Stanga
+
+        </template>
+    </category>
+    <category>
+        <pattern>Salut</pattern>
+        <template>
+            <srai>Buna</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>Buna dimineata</pattern>
+        <template>
+            <srai>Buna</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>Buna ziua </pattern>
+        <template>
+            <srai>Buna</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>Buna seara </pattern>
+        <template>
+            <srai>Buna</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>dreapta</pattern>
+        <template>Ce tip de doze doriti ? pasive/active
+            <think>
+                <set name="topic">dreapta</set>
+            </think>
+        </template>
+    </category>
+    <topic name="dreapta">
+        <category>
+            <pattern>pasive</pattern>
+            <template>
+                <think>
+                    <set name="doze">pasive</set>
+                </think>
+                Cum doriti sa fie corpul chitarei? ST / T / V/ SINGLECUT
+            </template>
+        </category>
+        <category>
+            <pattern>active</pattern>
+            <template>
+                <think>
+                    <set name="doze">active</set>
+                </think>
+
+                Cum doriti sa fie corpul chitarei? ST / T / V/ SINGLECUT
+            </template>
+        </category>
+        <category>
+            <pattern>ST</pattern>
+            <template>
+                <think>
+                    <set name="forma">ST</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>T</pattern>
+            <template>
+                <think>
+                    <set name="forma">T</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>V</pattern>
+            <template>
+                <think>
+                    <set name="forma">V</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>SINGLECUT</pattern>
+            <template>
+                <think>
+                    <set name="forma">SINGLECUT</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>ST</pattern>
+            <template>
+                <think>
+                    <set name="forma">ST</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>T</pattern>
+            <template>
+                <think>
+                    <set name="forma">T</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>V</pattern>
+            <template>
+                <think>
+                    <set name="forma">V</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>SINGLECUT</pattern>
+            <template>
+                <think>
+                    <set name="forma">SINGLECUT</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>RASPUNS CHITARA</pattern>
+            <template>
+                <condition name="doze">
+                    <li value="pasive">
+                        <condition name="forma">
+                            <li value="ST">
+                                <condition name="lemn">
+                                    <li value="mahon">
+                                    Va recomand 
+                                    <ul>
+                                        <li>Harley Benton Fusion-II HH FR EB FBB</li>
+                                        <li>Harley Benton Fusion-II HSH Roasted FNT</li>
+                                        <li>Harley Benton Fusion-II HH FR Roasted FNT</li>
+                                        <li>Chapman Guitars ML1 Modern Midnight Sky V2</li>
+                                    </ul>  
+
+
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+      Va recomand
+      <ul>
+          <li>Kramer Guitars Baretta Vintage VW</li>
+          <li>Kramer Guitars Pacer Vintage OB Tiger</li>
+          <li>Kramer Guitars 84 Baretta White</li>
+      </ul>/  
+
+
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Va recomand Ibanez UV70P-BK
+
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand
+                                    <ul>
+                                        <li>Ibanez GRX70QA-TBB GIO</li>
+                                        <li>Jackson JS11 Dinky MR AH</li>
+                                        <li>Jackson JS22 Dinky DKA AH SW</li>
+                                        <li>Ibanez PGMM21 Paul Gilbert MGN</li>   
+                                        <li>Jackson JS32 Dinky DKA AH PP</li>
+                                        <li>Fender SQ Contemporary Strat HH MNDMR</li>
+                                    </ul>
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Va recomand 
+                                    <ul>
+                                        <li>Schecter C-1 EX Apocalypse Rusty Grey</li>
+                                        <li>Schecter Reaper-6 FR S SSKYB</li>
+                                        <li>Schecter C-1 FR S Apocalypse Rusty Grey</li>
+                                        <li>Harley Benton ST-90SA Swamp Ash DLX Series</li>
+                                        <li>Fender AM Pro Strat Ash MN SSB</li>
+                                        <li>Fender LE AM PRO LT ASH Strat RW AGN</li>
+                                    </ul>
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                            <li value="T">
+                                <condition name="lemn">
+                                    <li value="mahon">
+
+                                        Va recomand 
+                                        <ul>
+                                            <li>ESP LTD TE-401 BLKS</li>
+                                            <li>Fender Custom Telecaster FMT HH CRTIL</li>
+                                            <li>Chapman Guitars ML3 Pro Modern Semi-Hollow OB</li>
+                                            <li>Chapman Guitars ML3 Modern Lunar V2</li>
+                                            <li>Fender Telecaster Custom FMT HH BCBIL</li>
+                                        </ul>  
+
+
+
+
+
+
+                                        <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Va recomand Fender SQ CV 70s Tele Thinline MN NAT 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Va recomand Fender SQ Vintage Mod Tele Custom SB
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand Fender SQ CV 70s Tele CSTM MN 3TS 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Va recomand Legator Opus OTF7P WA 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                            <li value="V">
+                                <condition name="lemn">
+                                    <li value="mahon">
+
+                                        Va recomand 
+                                        <ul>
+                                            <li>Dean Guitars Dave Mustaine Rust In Peace</li>
+                                            <li>ESP LTD Vulture BKS Hetfield</li>
+                                            <li>Dean Guitars Michael Schenker Custom Flame</li>
+                                            <li>Dean Guitars Angel of Death</li>
+                                            <li>Harley Benton Victory Plus BK Vintage Series</li>
+                                            <li>Dean Guitars V79 TBZ Stoptail</li>
+                                            <li>Dean Guitars V 79 Blue Burst</li>
+                                            <li>Jackson Pro KV King V Ferrari Red</li>
+                                        </ul>  
+
+
+
+
+                                        <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Va recomand Jackson KVXMG King V BK 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Va recomand Jackson KV7 BKS Corey Beaulieu
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand Jackson JS32 Rhoads AH Ivory
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Va recomand  Jackson Pro RR24 Charcoal Gray
+
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                            <li value="SINGLECUT">
+                                <condition name="lemn">
+                                    <li value="mahon">
+
+                                        Va recomand 
+                                        <ul>
+                                            <li>Line6 JTV-59 Variax TSBE</li>
+                                            <li>Gibson Les Paul Studio 2019 TB</li>
+                                            <li>Gibson Les Paul Studio 2019 WR</li>
+                                            <li>Gibson Les Paul Standard HP 2019 BBF</li>
+                                            <li>Epiphone Les Paul Express VS</li>
+                                            <li>Epiphone Les Paul Special VE VSB</li>
+                                            <li>ESP LTD EC-1000ET QM DBSB</li>
+                                            <li>Gibson Les Paul Tribute 2019 SIT</li>
+                                            
+                                        </ul> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Va recomand  Schecter Solo II Apocalypse Red Reign
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Va recomand Epiphone Les Paul Player Pack VS
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand Jackson JS22 SC Monarkh Satin White
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Va recomand  
+                                    <ul>
+                                        <li>Knaggs Kenai T3 Onyx/Drift</li>
+                                        <li>Schecter Solo II Apocalypse Red Reign</li>
+                                        <li>Knaggs Kenai T3 White Drift</li>
+                                        <li>Knaggs Kenai T3 Blue Drift</li>
+                                        <li>Knaggs Kenai T3 Burgundy Drift</li>
+                                
+                                    </ul>
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                        </condition>
+                    </li>
+                    <li value="active">
+                        <condition name="forma">
+                            <li value="ST">
+                                <condition name="lemn">
+                                    <li value="mahon">
+                                    Va recomand  ESP LTD MH-1001NT STBLK
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Nu avem chitara cu doze active din artar. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Va recomand Harley Benton HWY-25BKS Progressive Series
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand Sterling by Music Man SUB SR30 Sting Ray HH SBK
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Va recomand  Schecter C-1 SLS Evil Twin Satin Black
+
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                            <li value="T">
+                                <condition name="lemn">
+                                    <li value="mahon">
+
+                                        Va recomand ESP LTD TE-401 BLKS
+                                        <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Nu avem chitara T din artar cu doze active.  
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Nu avem chitare din tei cu doze active si forma T.
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand Fender SQ CV 70s Tele DLX MN BK
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Va recomand  FGN Iliad DE664 White
+
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                            <li value="V">
+                                <condition name="lemn">
+                                    <li value="mahon">
+
+                                        Va recomand  Dean Guitars Angel of Death
+                                        <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Va recomand ESP LTD MH-1001NT STBLK
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Nu avem modele heavy din tei cu doze active
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand Solar Guitars S1.6SB LTD
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Va recomand Jackson Pro RR24 Charcoal Gray
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                            <li value="SINGLECUT">
+                                <condition name="lemn">
+                                    <li value="mahon">
+
+                                       Va recomand Epiphone Prophecy LP Custom Plus EX-MS
+                                        <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Nu avem chitara cu doze active pentru acesta forma. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Din pacate nu avem chitara din lemn de tei cu doze active.
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand Ibanez ART120QA-TKS
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Va recomand  Schecter Solo II Apocalypse Red Reign
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                        </condition>
+                    </li>
+                </condition>
+            </template>
+        </category>
+    </topic>
+    <category>
+        <pattern>Stanga</pattern>
+        <template>Ce tip de doze doriti? ? pasive/active
+
+            <think>
+                <set name="topic">Stanga</set>
+            </think>
+        </template>
+    </category>
+    <topic name="Stanga">
+        <category>
+            <pattern>pasive</pattern>
+            <template>
+                <think>
+                    <set name="doze">pasive</set>
+                </think>
+
+                Cum doriti sa fie corpul chitarei? ST / T / V/ SINGLECUT
+            </template>
+        </category>
+        <category>
+            <pattern>active</pattern>
+            <template>
+                <think>
+                    <set name="doze">active</set>
+                </think>
+
+                Cum doriti sa fie corpul chitarei? ST / T / V/ SINGLECUT
+            </template>
+        </category>
+        <category>
+            <pattern>ST</pattern>
+            <template>
+                <think>
+                    <set name="forma">ST</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>T</pattern>
+            <template>
+                <think>
+                    <set name="forma">T</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>V</pattern>
+            <template>
+                <think>
+                    <set name="forma">V</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>SINGLECUT</pattern>
+            <template>
+                <think>
+                    <set name="forma">SINGLECUT</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>ST</pattern>
+            <template>
+                <think>
+                    <set name="forma">ST</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>T</pattern>
+            <template>
+                <think>
+                    <set name="forma">T</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>V</pattern>
+            <template>
+                <think>
+                    <set name="forma">V</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>	
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>SINGLECUT</pattern>
+            <template>
+                <think>
+                    <set name="forma">SINGLECUT</set>
+                </think>
+
+                 Din ce lemn doriti chitara?  mahon / artar /tei/ plop / frasin
+
+            </template>
+        </category>
+        <category>
+            <pattern>mahon</pattern>
+            <template>
+                <think>
+                    <set name="lemn">mahon</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>artar</pattern>
+            <template>
+                <think>
+                    <set name="lemn">artar</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>tei</pattern>
+            <template>
+                <think>
+                    <set name="lemn">tei</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>plop</pattern>
+            <template>
+                <think>
+                    <set name="lemn">plop</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>frasin</pattern>
+            <template>
+                <think>
+                    <set name="lemn">frasin</set>
+                </think>
+                <srai>RASPUNS CHITARA</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>RASPUNS CHITARA</pattern>
+            <template>
+                <condition name="doze">
+                    <li value="pasive">
+                        <condition name="forma">
+                            <li value="ST">
+                                <condition name="lemn">
+                                    <li value="mahon">
+                                    RecomandamChapman Guitars ML1 Pro Modern Dusk LH . 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Va recomand  Fender AM Original 50 Strat MN WB LH
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Ne pare rau nu avem chitara din tei cu doze pasive pentru stangaci
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand Fender SQ Contemporary Strat HH MNBKL
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Va recomand  Fender AM Original 50 Strat MN WB LH
+
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                            <li value="T">
+                                <condition name="lemn">
+                                    <li value="mahon">
+
+                                        Va recomand  Harley Benton TE-90QM LH Trans Red
+                                        <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Va recomand  Harley Benton TE-90FLT LH VW Deluxe Series. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Va recomand Cort MBC-1 Lefthand BK
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand Fender SQ Contemporary Tele HH DMRLH.
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Va recomand  Fender AM Pro Tele Ash LH MN BTB. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                            <li value="V">
+                                <condition name="lemn">
+                                    <li value="mahon">
+
+                                        Va recomand Dean Guitars Dave Mustaine VMNT PS L
+                                        <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Va recomand  Jackson RRXT Rhoads SBK LH sau Jackson RRXT Rhoads SBK LH B-Stock. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Nu avem chitare V pentru stangaci din tei.
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand Jackson JS32 Rhoads AH Ivory
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Nu avem pe stoc chitara in forma V pentru stangaci din lemn de frasin. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                            <li value="SINGLECUT">
+                                <condition name="lemn">
+                                    <li value="mahon">
+
+                                        Va recomand  Gretsch G5230 Electromatic Jet FTBK LH. 
+                                        <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Va recomand ESP LTD EC-1000 Piezo QM STBLK LH
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Nu avem chitara din tei pentru stangaci cu doze pasive..
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand Harley Benton SC-200LH BK Student Series.
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Nu avem SINGLECUT din frasin cu doze pasive pentru stangaci.
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                        </condition>
+                    </li>
+                    <li value="active">
+                        <condition name="forma">
+                            <li value="ST">
+                                <condition name="lemn">
+                                    <li value="mahon">
+                                    Va recomand ESP LTD MH-200 LH Black. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Va recomand  ESP E-II Horizon FR-II STBLKSB LH. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Momentan nu avem in stoc chitara cu doze active tip ST din lemn de tei.
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Va recomand Schecter Reaper 7 Multiscale SCB LH.
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Nu avem nimic pe stoc din lemn de frasin pentru stangaci si doze active. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                            <li value="T">
+                                <condition name="lemn">
+                                    <li value="mahon">
+
+                                        Va recomand ESP LTD TE-200 Maple STBC LH. 
+                                        <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Va recomand ESP LTD TE-254 D3TB LH. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Va recomand Cort MBC-1 Lefthand BK
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Nu avem nimic disponibil din plop cu doze active pentru stangaci.
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Va recomand  ESP LTD TE-254 D3TB LH. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                            <li value="V">
+                                <condition name="lemn">
+                                    <li value="mahon">
+
+                                        Va recomand ESP LTD Arrow-1000 LH VLAND
+                                        <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Va recomand Jackson RRXT Rhoads SBK LH B-Stock. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Nu avem chitara V din tei cu doze active pentru stangaci.
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Nu avem chitara V din plop cu doze active pentru stangaci.
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Nu avem chitara V din frasin cu doze active pentru stangaci. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                            <li value="SINGLECUT">
+                                <condition name="lemn">
+                                    <li value="mahon">
+
+                                        Va recomand  Framus D-Series Panthera 7-String LNB. 
+                                        <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="artar">
+
+                                    Va recomand  Jackson Pro Monarkh SC Gloss B B-Stock. 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="tei">
+
+                                    Nu avem nici o chitara in stoc din tei pentru stangaci tip Single cut 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="plop">
+
+                                    Nu avem nici o chitara in stoc din plop pentru stangaci tip Single cut.
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                                <condition name="lemn">
+                                    <li value="frasin">
+
+                                    Nu avem nici o chitara in stoc din frasin pentru stangaci tip Single cut 
+                                    <br/>Ma bucur ca ti-am putut fi de ajutor. La revedere!
+                                    </li>
+                                </condition>
+                            </li>
+                        </condition>
+                    </li>
+                </condition>
+            </template>
+        </category>
+    </topic>
+</aiml>
